@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GG DOCES - Adoçando sua vida</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>GG DOCES</header>
+
+    <div class="cx-form">
+        <form action="/Registro" method="post">
+            <div class="cx-form-dados-pessoais">
+
+                <div class="sub-title-form">
+                    <h3>Dados Pessoais</h3>
+                </div>
+                <div class="dados-pessoais nome">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="dados-pessoais nascimento">
+                    <label for="nascimento">Data de Nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento">
+                </div>
+                <div class="dados-pessoais cpf">
+                    <label for="cpf">CPF</label>
+                    <input type="number" name="cpf" id="cpf">
+                </div>
+                <div class="dados-pessoais email">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="dados-pessoais endereco">
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name="endereco" id="endereco">
+                </div>
+                <div class="dados-pessoais cep">
+                    <label for="cep">CEP</label>
+                    <input type="number" name="cep" id="cep">
+                </div>
+            </div>
+
+            <div class="cx-form-doces">
+
+                <div class="sub-title-form">
+                    <h3>Selecione seus doces</h3>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="doces" id="brigadeiro">
+                    <label for="brigadeiro">
+                        <img src="./img/brigadeiro.jpg" alt="brigadeiro" class="icones">
+                        Brigadeiro
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" name="doces" id="palha-italiana">
+                    <label for="palha-italiana">
+                        <img src="./img/palha.jpg" alt="brigadeiro" class="icones">
+                        Palha Italiana
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" name="doces" id="pudim">
+                    <label for="pudim">
+                        <img src="./img/pudim.jpg" alt="brigadeiro" class="icones">
+                        Pudim
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" name="doces" id="bolo-cenoura">
+                    <label for="bolo-cenoura">
+                        <img src="./img/bolo.jpg" alt="brigadeiro" class="icones">
+                        Bolo de Cenoura com Calda de Chocolate
+                    </label>
+                </div>
+                <div>
+                    <input type="checkbox" name="doces" id="cocada">
+                    <label for="cocada">
+                        <img src="./img/cocada.jpg" alt="brigadeiro" class="icones">
+                        Cocada
+                    </label>
+                </div>
+
+
+            </div>
+
+            <div class="cx-form-refri">
+
+                <div class="sub-title-form">
+                    <h3>Acompanha Refri?</h3>
+                </div>
+                <input type="radio" name="refri" id="sim-refri" checked>
+                <label for="sim-refri">Sim</label>
+                <input type="radio" name="refri" id="nao-refri">
+                <label for="nao-refri">Não</label>
+
+            </div>
+
+            <div class="cx-form-descart">
+
+                <div class="sub-title-form">
+                    <h3>Aceita Descartáveis?</h3>
+                </div>
+                <input type="radio" name="descart" id="sim-descart">
+                <label for="sim-descart">Sim</label>
+                <input type="radio" name="descart" id="nao-descart" checked>
+                <label for="nao-descart">Não</label>
+
+            </div>
+
+            <div class="cx-form-pagamento">
+
+                <div class="sub-title-form">
+                    <h3>Método de Pagamento</h3>
+                </div>
+                <input type="radio" name="pagamento" id="credito-pagamento" checked>
+                <label for="credito-pagamento">Crédito</label>
+                <input type="radio" name="pagamento" id="debito-pagamento">
+                <label for="debito-pagamento">Débito</label>
+                <input type="radio" name="pagamento" id="pix-pagamento">
+                <label for="pix-pagamento">PIX</label>
+                <input type="radio" name="pagamento" id="entrega-pagamento">
+                <label for="entrega-pagamento">Na Entrega</label>
+
+            </div>
+
+            <div class="botoes">
+                <button type="submit">Enviar Pedido</button>
+                <button type="reset">Limpar Carrinho</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

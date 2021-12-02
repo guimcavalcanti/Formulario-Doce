@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;   
+}
+
+header {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #EE4D2D;
+    background-color: #013068;
+    font-size: 80px;
+    padding: 10px 0;
+}
+
+.cx-form {
+    background-color: rgba(128, 128, 128, 0.741);
+    color: white;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 30px 30%;
+    padding: 10px 0 20px 0;
+    font-size: 15px;
+}
+
+.cx-form-dados-pessoais label{
+    display: block;
+}
+
+.sub-title-form {
+    text-transform: uppercase;
+    padding: 20px 0 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.icones {
+    width: 80px;
+    height: 80px;
+}
+
+button {
+    margin: 20px 20px 0;
+    padding: 5px;
+}
+
+label {
+    padding: 5px 0 5px;
+}
